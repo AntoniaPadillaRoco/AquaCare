@@ -13,9 +13,9 @@ const Hero = () => {
       <div className="md:col-span-5 flex items-center justify-center p-8 xl:p-16">
         <div className="flex flex-col gap-8">
           <h1 className="text-5xl xl:text-7xl font-bold xl:leading-[7.5rem] text-third">
-            Web Design Impactful Digital{" "}
+            El cuidado de tus peces en tus {" "}
             <span className="text-primary py-2 px-6 border-8 border-primary relative inline-block">
-              Products
+              manos
               <RiCheckboxBlankCircleFill className="text-white text-base absolute -left-5 -top-5 p-2 bg-primary rounded-full box-content" />
               <RiCheckboxBlankCircleFill className="text-white text-base absolute -right-5 -top-5 p-2 bg-primary rounded-full box-content" />
               <RiCheckboxBlankCircleFill className="text-white text-base absolute -right-5 -bottom-5 p-2 bg-primary rounded-full box-content" />
@@ -23,12 +23,11 @@ const Hero = () => {
             </span>
           </h1>
           <p className="text-gray-500 text-2xl leading-[2.5rem]">
-            Help find solutions with intitutive and in accordance with client
-            business goals. we provide a high-quality services.
+            Un cuidado inteligente para tus amigos acuáticos: un enfoque centrado en su bienestar y calidad de vida.
           </p>
           <div className="flex flex-col md:flex-row items-center gap-4">
             <button className="w-full xl:w-auto bg-primary text-white py-2 px-8 rounded-xl text-xl">
-              Contact Us
+              Contáctanos.
             </button>
           </div>
         </div>

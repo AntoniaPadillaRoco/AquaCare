@@ -23,16 +23,16 @@ const Header = () => {
       >
 
         <a href="#home" className="">
-          Home
+          Inicio
         </a>
         <a href="#aboutUs" className="">
-          About Us
+          Sobre nosotros
         </a>
         <a href="#services" className="">
-          Services
+          Servicios
         </a>
         <a href="#aboutUs" className="">
-          Products
+          Contacto
         </a>
       </nav>
       <button
