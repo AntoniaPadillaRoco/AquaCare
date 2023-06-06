@@ -4,7 +4,7 @@ import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
 
 const Reviews = () => {
   return (
-    <div className="p-8 flex flex-col gap-8 bg-gray-100">
+    <div className="p-8 flex flex-col gap-8 bg-ran">
       <h1 className="text-[40px] text-center font-black">
         Let’s hear What they says
       </h1>

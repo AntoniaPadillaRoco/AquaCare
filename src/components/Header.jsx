@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 // Icons
+import ProductsID from "../pages/ProductsID";
 import {
   RiMenu3Fill,
   RiCloseLine,
@@ -35,6 +36,11 @@ const Header = () => {
           Contacto
         </a>
       </nav>
+
+        <nav>
+          Ya tienes tu producto? Haz click <a href = "ProductsID" className="text-primary" > aqui</a>
+        </nav>
+
       <button
         onClick={() => setShowMenu(!showMenu)}
         className="xl:hidden text-2xl p-2"

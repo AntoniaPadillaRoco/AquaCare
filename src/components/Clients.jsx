@@ -2,8 +2,8 @@ import React from "react";
 
 const Clients = () => {
   return (
-    <div className="bg-back p-8 flex flex-col items-center justify-center gap-8 mt-20 xl:mt-0">
-      <h1 className="text-2xl font-medium text-primary text-center">
+    <div className="bg-ran p-8 flex flex-col items-center justify-center gap-8 mt-20 xl:mt-0">
+      <h1 className="text-2xl font-medium text-third text-center">
         Trusted by greatest companies
       </h1>
       <div className="flex flex-col md:flex-row items-center flex-wrap gap-20">

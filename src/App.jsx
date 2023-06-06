@@ -1,26 +1,20 @@
-import Header from "./components/Header"
-import Hero from "./components/Hero"
-import Clients from "./components/Clients"
-import Works from "./components/Works"
-import Services from "./components/Services"
-import Reviews from "./components/Reviews"
-import Footer from "./components/Footer"
+import React from 'react';
+import Landing from './pages/Landing';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ProductsID from './pages/ProductsID'
 
 function App() {
   
 
   return (
-    <div className="">
-      <Header/>
-      <Hero/>
-      <Clients/>
-      <Works/>
-      <Reviews/>
-      <Services/>
-      <Footer/>
-
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path = "/" element = {<Landing/>} />
+        <Route path = "/ProductsID" element = {<ProductsID/>} />
+        <Route/>
+      </Routes>
+    </BrowserRouter>
   )
-}
+};
 
 export default App

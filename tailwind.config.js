@@ -11,6 +11,7 @@ export default {
         secondary: "#2E3E5C",
         third: "#0E7490",
         back: "#FFFFF0",
+        ran: "#DADACA",
       }
     },
   },
