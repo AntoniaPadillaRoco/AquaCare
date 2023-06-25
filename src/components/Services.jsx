@@ -24,7 +24,7 @@ const Services = () => {
             />
             <button
               type="submit"
-              className="absolute font-semibold py-2 px-6 bg-primary text-white rounded-xl top-1/2 -translate-y-1/2 right-2"
+              className="absolute font-semibold py-2 px-6 bg-prim text-white rounded-xl top-1/2 -translate-y-1/2 right-2"
             >
               Suscribe
             </button>
@@ -34,28 +34,28 @@ const Services = () => {
       {/* Services */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="flex flex-col gap-2">
-          <RiSmartphoneFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
+          <RiSmartphoneFill className="text-4xl p-2 bg-secondary text-prim box-content rounded-xl" />
           <h3 className="text-[20px] font-bold">UI/UX Design</h3>
           <p className="text-gray-500">
             Sometimes features require a short description
           </p>
         </div>
         <div className="flex flex-col gap-2">
-          <RiMacFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
+          <RiMacFill className="text-4xl p-2 bg-secondary text-prim box-content rounded-xl" />
           <h3 className="text-[20px] font-bold">Logo Branding</h3>
           <p className="text-gray-500">
             Sometimes features require a short description
           </p>
         </div>
         <div className="flex flex-col gap-2">
-          <RiSmartphoneFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
+          <RiSmartphoneFill className="text-4xl p-2 bg-secondary text-prim box-content rounded-xl" />
           <h3 className="text-[20px] font-bold">App Design</h3>
           <p className="text-gray-500">
             Sometimes features require a short description
           </p>
         </div>
         <div className="flex flex-col gap-2">
-          <RiMacFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
+          <RiMacFill className="text-4xl p-2 bg-secondary text-prim box-content rounded-xl" />
           <h3 className="text-[20px] font-bold">Webiste Design</h3>
           <p className="text-gray-500">
             Sometimes features require a short description

@@ -23,19 +23,19 @@ const Footer = () => {
       </div>
         {/* Social media */}
         <nav className="flex items-center gap-4">
-          <a href="#" className="block text-white p-4 bg-primary rounded-full">
+          <a href="#" className="block text-white p-4 bg-prim rounded-full">
             {" "}
             <RiInstagramLine />{" "}
           </a>
-          <a href="#" className="block text-white p-4 bg-primary rounded-full">
+          <a href="#" className="block text-white p-4 bg-prim rounded-full">
             {" "}
             <RiFacebookLine />{" "}
           </a>
-          <a href="#" className="block text-white p-4 bg-primary rounded-full">
+          <a href="#" className="block text-white p-4 bg-prim rounded-full">
             {" "}
             <RiTwitterLine />{" "}
           </a>
-          <a href="#" className="block text-white p-4 bg-primary rounded-full">
+          <a href="#" className="block text-white p-4 bg-prim rounded-full">
             {" "}
             <RiGithubLine />{" "}
           </a>
@@ -84,7 +84,7 @@ const Footer = () => {
           </a>
           <button
             type="button"
-            className="font-semibold py-2 px-6 bg-primary text-white rounded-xl"
+            className="font-semibold py-2 px-6 bg-prim text-white rounded-xl"
           >
             Contact Us
           </button>

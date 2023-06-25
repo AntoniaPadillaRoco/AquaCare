@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 // Icons
 import ProductsID from "../pages/ProductsID";
+
 import {
   RiMenu3Fill,
   RiCloseLine,
@@ -38,7 +39,7 @@ const Header = () => {
       </nav>
 
         <nav>
-          Ya tienes tu producto? Haz click <a href = "ProductsID" className="text-primary" > aqui</a>
+          Ya tienes tu producto? Haz click <a href = "ProductsID" className="text-prim" > aqui</a>
         </nav>
 
       <button

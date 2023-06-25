@@ -8,10 +8,7 @@ const ProductsID = () => {
 
     <div className="flex items-center justify-between xl:justify-start w-full py-4 px-8 h-[10vh] z-50 bg-back">
       <div className="xl:w-1/6 text-center -mt-4 ">
-        <img
-          src="AquaCare-logo.png"
-          className="text-2xl font-bold relative p-1 bg-back"
-        />
+        <img src="AquaCare-logo.png" className="text-2xl font-bold relative p-1 bg-back"/>
       </div>
 
       <nav
@@ -57,8 +54,8 @@ const ProductsID = () => {
               placeholder="ID de producto . . . "
             />
 
-            <button className = "mt-6 bg-primary text-white w-full py-2 px-6 rounded-lg">
-              Ver mis datos
+            <button className = "mt-6 bg-prim text-white w-full py-2 px-6 rounded-lg">
+                <a href = "User" > Ver mis datos</a>
             </button>
           </form>
       

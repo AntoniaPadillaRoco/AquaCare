@@ -14,19 +14,19 @@ const Hero = () => {
         <div className="flex flex-col gap-8">
           <h1 className="text-5xl xl:text-7xl font-bold xl:leading-[7.5rem] text-third">
             El cuidado de tus peces en tus {" "}
-            <span className="text-primary py-2 px-6 border-8 border-primary relative inline-block">
+            <span className="text-prim py-2 px-6 border-8 border-prim relative inline-block">
               manos
-              <RiCheckboxBlankCircleFill className="text-white text-base absolute -left-5 -top-5 p-2 bg-primary rounded-full box-content" />
-              <RiCheckboxBlankCircleFill className="text-white text-base absolute -right-5 -top-5 p-2 bg-primary rounded-full box-content" />
-              <RiCheckboxBlankCircleFill className="text-white text-base absolute -right-5 -bottom-5 p-2 bg-primary rounded-full box-content" />
-              <RiCheckboxBlankCircleFill className="text-white text-base absolute -left-5 -bottom-5 p-2 bg-primary rounded-full box-content" />
+              <RiCheckboxBlankCircleFill className="text-white text-base absolute -left-5 -top-5 p-2 bg-prim rounded-full box-content" />
+              <RiCheckboxBlankCircleFill className="text-white text-base absolute -right-5 -top-5 p-2 bg-prim rounded-full box-content" />
+              <RiCheckboxBlankCircleFill className="text-white text-base absolute -right-5 -bottom-5 p-2 bg-prim rounded-full box-content" />
+              <RiCheckboxBlankCircleFill className="text-white text-base absolute -left-5 -bottom-5 p-2 bg-prim rounded-full box-content" />
             </span>
           </h1>
           <p className="text-gray-500 text-2xl leading-[2.5rem]">
             Un cuidado inteligente para tus amigos acuáticos: un enfoque centrado en su bienestar y calidad de vida.
           </p>
           <div className="flex flex-col md:flex-row items-center gap-4">
-            <button className="w-full xl:w-auto bg-primary text-white py-2 px-8 rounded-xl text-xl">
+            <button className="w-full xl:w-auto bg-prim text-white py-2 px-8 rounded-xl text-xl">
               Contáctanos.
             </button>
           </div>
@@ -71,15 +71,15 @@ const Hero = () => {
               COMPRA AHORA!
             </h2>
             <div className="flex items-center gap-2 text-lg text-gray-500">
-              <RiStarFill className="text-primary" /> 
-              <RiStarFill className="text-primary" /> 
-              <RiStarFill className="text-primary" /> 
-              <RiStarFill className="text-primary" /> 
+              <RiStarFill className="text-prim" /> 
+              <RiStarFill className="text-prim" /> 
+              <RiStarFill className="text-prim" /> 
+              <RiStarFill className="text-prim" /> 
               
             </div>
             <div className="absolute -right-12 -bottom-12 -z-10">
               <div className="relative">
-                <RiCheckboxBlankCircleFill className="text-primary text-8xl" />
+                <RiCheckboxBlankCircleFill className="text-prim text-8xl" />
                 <div className="absolute left-0 top-0 bg-white w-14 h-14"></div>
               </div>
             </div>
