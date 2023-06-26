@@ -2,71 +2,60 @@ import React from "react";
 
 const Works = () => {
   return (
-    <div id="aboutUs" className="p-8 xl:p-20 bg-back">
+    <div id="aboutUs" className="p-8 xl:p-20 bg-ran">
       <div className="mb-8">
         <h1 className="text-[40px] font-black text-third">
-          We create world-class digital products
+          Lo que ofrecemos
         </h1>
         <p className="text-xl text-gray-500">
-          By information about design the world to the best instructors, heatc
-          helping By information
+          Nuestro es objetivo es ayudarte a ti y a tus amigos acuáticos!
         </p>
       </div>
       {/* Works */}
       <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 text-third">
         <div className="flex flex-col gap-2">
           <img
-            src="work1.png"
+            src="pez-lindo.jpg"
             className="w-full h-[600px] object-cover rounded-3xl"
           />
-          <p className="text-gray-500">App Design - June 20, 2022</p>
-          <h3 className="text-2xl font-bold">App Redesign</h3>
+          <h3 className="text-2xl font-bold">AquaCare</h3>
           <p className="text-gray-500">
-            By information about design the world to the best instructors, heatc
-            helping By information about design the world to the best
-            instructors, heatc helping
+          Un dispositivo que te entrega los datos de temperatura y pH de tu pecera. Además, ingresando en la aplicación web el ID de tu producto,
+            puedes acceder a las estadísticas de tu pecera, junto con consejos y servicio técnico las 24 horas.
+            Todo al alcance de tu mano!
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="flex flex-col gap-4">
             <img
-              src="work2.png"
+              src="dispositivo-1.jpg"
               className="w-full h-56 object-cover rounded-3xl"
             />
-            <p className="text-gray-500">App Design - June 20, 2022</p>
-            <h3 className="text-2xl font-bold">
-              Redesign channel website landng page
-            </h3>
+            <p className="text-gray-500">¡Un producto all-in-one económico!</p>
+            
           </div>
           <div className="flex flex-col gap-4">
             <img
-              src="work3.png"
+              src="consejitos.png"
               className="w-full h-56 object-cover rounded-3xl"
             />
-            <p className="text-gray-500">App Design - June 20, 2022</p>
-            <h3 className="text-2xl font-bold">
-              New Locator App For a New Company
-            </h3>
+            <p className="text-gray-500">¡Incluye consejos en la aplicación!</p>
+            
           </div>
           <div className="flex flex-col gap-4">
             <img
               src="work4.png"
               className="w-full h-56 object-cover rounded-3xl"
             />
-            <p className="text-gray-500">App Design - June 20, 2022</p>
-            <h3 className="text-2xl font-bold">
-              Rental Rooms Web App Platform
-            </h3>
+            <p className="text-gray-500">¡Incluye estadísticas!</p>
+            
           </div>
           <div className="flex flex-col gap-4">
             <img
-              src="work5.png"
+              src="dispositivo-2.jpg"
               className="w-full h-56 object-cover rounded-3xl"
             />
-            <p className="text-gray-500">App Design - June 20, 2022</p>
-            <h3 className="text-2xl font-bold">
-              Calendar App for Big SASS Company
-            </h3>
+            <p className="text-gray-500">¡Un diseño único!</p>
           </div>
         </div>
       </div>

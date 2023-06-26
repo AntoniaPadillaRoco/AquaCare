@@ -6,13 +6,13 @@ const ProductsID = () => {
   return (
     <div>
 
-    <div className="flex items-center justify-between xl:justify-start w-full py-4 px-8 h-[10vh] z-50 bg-back">
+    <div className="flex items-center justify-between xl:justify-start w-full py-4 px-8 h-[10vh] z-50 bg-ran">
       <div className="xl:w-1/6 text-center -mt-4 ">
-        <img src="AquaCare-logo.png" className="text-2xl font-bold relative p-1 bg-back"/>
+        <img src="AquaCare-logo.png" className="text-2xl font-bold relative p-1"/>
       </div>
 
       <nav
-        className={`fixed bg-back w-[80%] md:w-[40%] xl:w-full h-full top-0 xl:static flex-1 flex flex-col xl:flex-row items-center justify-center gap-10 transition-all duration-500 z-50`}
+        className={`fixed w-[80%] md:w-[40%] xl:w-full h-full top-0 xl:static flex-1 flex flex-col xl:flex-row items-center justify-center gap-10 transition-all duration-500 z-50`}
       >
 
         <a href="/" className="">
@@ -42,7 +42,7 @@ const ProductsID = () => {
       <div className="bg-ran p-8 rounded-lg w-full md:w-96">
           
           <div className="mb-10">
-            <h1 className="text-3xl uppercase font-bold text-center text-secondary">
+            <h1 className="text-3xl uppercase font-bold text-center text-third">
               Ingresa tu ID
             </h1>
           </div>

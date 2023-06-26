@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-back p-8 xl:p-20">
+    <footer className="bg-ran p-8 xl:p-20">
 
         
       <div className="flex flex-col md:flex-row items-center justify-between gap-4 border-b border-gray-500 pb-8">
@@ -18,9 +18,9 @@ const Footer = () => {
         <div className="xl:w-1/6 text-center -mt-4 ">
         <img
           src="AquaCare-logo.png"
-          className="text-2xl font-bold relative p-1 bg-back"
+          className="text-2xl font-bold relative p-1"
         />
-      </div>
+        </div>
         {/* Social media */}
         <nav className="flex items-center gap-4">
           <a href="#" className="block text-white p-4 bg-prim rounded-full">
@@ -41,57 +41,9 @@ const Footer = () => {
           </a>
         </nav>
       </div>
-      <div className="mt-8">
-        <h3 className="text-lg font-bold text-black text-center md:text-left">
-          Company
-        </h3>
-        <nav className="mt-4 flex flex-col md:flex-row items-center justify-between gap-4">
-          <a
-            href="#"
-            className="text-secondary mt-4 hover:text-white transition-colors"
-          >
-            About Us
-          </a>
-          <a
-            href="#"
-            className="text-secondary mt-4 hover:text-white transition-color"
-          >
-            Press
-          </a>
-          <a
-            href="#"
-            className="text-secondary mt-4 hover:text-white transition-color"
-          >
-            Investors
-          </a>
-          <a
-            href="#"
-            className="text-secondary mt-4 hover:text-white transition-color"
-          >
-            Events
-          </a>
-          <a
-            href="#"
-            className="text-secondary mt-4 hover:text-white transition-color"
-          >
-            Terms of use
-          </a>
-          <a
-            href="#"
-            className="text-secondary mt-4 hover:text-white transition-color"
-          >
-            Privacy policy
-          </a>
-          <button
-            type="button"
-            className="font-semibold py-2 px-6 bg-prim text-white rounded-xl"
-          >
-            Contact Us
-          </button>
-        </nav>
-      </div>
+      
       <div className="mt-20">
-        <p className="text-gray-300 text-center">
+        <p className="text-third text-center">
           © AquaCare 2023 - All Rights Reserved
         </p>
       </div>

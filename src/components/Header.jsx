@@ -11,15 +11,15 @@ import {
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <header className="flex items-center justify-between xl:justify-start w-full py-4 px-8 h-[10vh] z-50 bg-back">
+    <header className="flex items-center justify-between xl:justify-start w-full py-4 px-8 h-[10vh] z-50 bg-ran">
       <div className="xl:w-1/6 text-center -mt-4 ">
         <img
           src="AquaCare-logo.png"
-          className="text-2xl font-bold relative p-1 bg-back"
+          className="text-2xl font-bold relative p-1"
         />
       </div>
       <nav
-        className={`fixed bg-back w-[80%] md:w-[40%] xl:w-full h-full ${
+        className={`fixed w-[80%] md:w-[40%] xl:w-full h-full ${
           showMenu ? "left-0" : "-left-full"
         } top-0 xl:static flex-1 flex flex-col xl:flex-row items-center justify-center gap-10 transition-all duration-500 z-50`}
       >
@@ -27,13 +27,13 @@ const Header = () => {
         <a href="#home" className="">
           Inicio
         </a>
-        <a href="#aboutUs" className="">
+        <a href="#services" className="">
           Sobre nosotros
         </a>
-        <a href="#services" className="">
+        <a href="#aboutUs" className="">
           Servicios
         </a>
-        <a href="#aboutUs" className="">
+        <a href="#services" className="">
           Contacto
         </a>
       </nav>

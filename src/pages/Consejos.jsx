@@ -13,10 +13,7 @@ const Consejos = () => {
 
         <div className="flex items-center justify-between mb-10 bg-back">
             <h1 className="text-4xl font-bold text-third">Consejos 🐟</h1>
-            <div className="flex items-center gap-2 text-3xl">
-                <RiArrowLeftSLine className="hover:cursor-pointer hover:text-white transition-colors" />
-                <RiArrowRightSLine className="hover:cursor-pointer hover:text-white transition-colors" />
-            </div>
+
         </div>
             
         <Row>

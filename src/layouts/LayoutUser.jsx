@@ -13,7 +13,7 @@ import {
  
 const LayoutUser = () => {
   return (
-    <div>
+    <div style={styles.container}>
         <div className="min-h-screen grid grid-cols-1 xl:grid-cols-6">
             <Sidebar />
             <div className="xl:col-span-5"> 
@@ -28,11 +28,14 @@ const LayoutUser = () => {
                 </div>
             </div>
         </div>
-
-
-
     </div>
   )
 }
+
+const styles = {
+  container: {
+    backgroundColor: '#FFFFF0',
+  },
+};
 
 export default LayoutUser
